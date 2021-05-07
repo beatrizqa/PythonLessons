@@ -58,3 +58,14 @@ fb_rating = 3.5
 fb_rating_str = str(fb_rating)
 fb = facebook + ' ' + fb_rating_str
 print(fb)
+
+# Get 2 inputs from the user
+    # 1. String
+    # 2. number
+# concatenate them together and print them to the console
+name = input("Where were you born? ") 
+yearOfBirth = input("What year were you born? ")
+print("I was born in " + name + " in " + yearOfBirth)
+
+
+
